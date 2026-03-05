@@ -20,6 +20,10 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+a{
+    text-decoration: none;
+    color:darkgoldenrod;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -41,6 +45,11 @@ nav ul li{
     max-width: 100%;
     padding: 50px 0;
 }
+.col-2 h1{
+    font-size: 50px;
+    line-height:60px;
+    margin:25px 0;
+}
 .btn{
     display: inline-block;
     background-color: palegoldenrod;
@@ -48,6 +57,9 @@ nav ul li{
     padding: 8px 30px;
     margin:30px 0;
     border-radius: 30px;
+}
+.btn:hover{
+    background: rgb(218, 45, 48);
 }
 .header{
     background:radial-gradient(skyblue);
@@ -57,4 +69,21 @@ nav ul li{
 }
 .btn:hover{
     background-color: pink;
+}
+  .categories{
+    margin: 70px 0;
+  }
+.col-3{
+    flex-basis: 30%;
+    min-width:250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;  
 }
