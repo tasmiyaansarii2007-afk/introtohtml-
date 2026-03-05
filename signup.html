@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signupstyle.css">
+</head>
+<body>
+    <div class="container">
+        <form action="submit" method="post">
+            <div class="title">
+                <h1><b>Instagram</b></h1>
+            </div>
+            <div class="row">
+            <div class="top">
+            <h3>create an Account</h3>
+            <span>To check feeds</span>
+        <div>    
+        </div>
+        <div class="row-1">
+        <div clss="col-1">
+          <!----for firstname-->
+          <input type="text" class="input-form" placeholder="enter your firstname"  
+          required>
+        </div>
+        <div class="row-1">
+        <div class="col-1">
+         <!----for lastname-->
+          <input type="text" class="input-form" placeholder="enter your lastname" required>
+        </div>
+        <div class="row">
+            <!----for email-->
+            <input type="email" class="input-form" placeholder="enter your email" required>
+        </div>
+
+        <div class="row">
+            <!----for password-->
+            <input type="password" class="input-form" placeholder="enter your password" required minlength="8"> 
+            </div>
+
+            <div class="row">
+                <span>Gender</span>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="radio-button">
+                            <input type="radio" id="male" name="gender" 
+                            class="radio-input" value="Male">
+                            <label class="radio-label" for="male"></label>Male</label>
+                        </div>
+
+                        <div class="radio-button">
+                            <input type="radio" id="female" name="gender" 
+                            class="radio-input" value="Female">
+                            <label class="radio-label" for="female"></label>Female</label>
+                        </div>
+
+                        <div class="radio-button">
+                            <input type="radio" id="other" name="gender" 
+                            class="radio-input" value="Other">
+                            <label class="radio-label" for="other"></label>Other</label>
+                        </div>
+
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <span>Date of Birth</span>
+                <div class="form-row">
+                    <!----Date Dropdown-->
+                    <div class="col-3">
+                      <select id="day" name="day" class="form">
+                        <option value="">Day</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <input type="date" class="input-form" required>
+                      </select>
+                    </div>
+                    <!--Month Dropdown-->
+                    <div class="col-4">
+                        <select id="month" name="month" class="form">
+                            <option value="">Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                        </select>
+                    <!--Year Dropdown-->
+                    <div class="col-5">
+                        <select id="year" name="year" class="form">
+                            <option value="">Year</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--For Submit Button-->
+            <button type="submit" class="button">
+                <b>Sign Up</b>
+            </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

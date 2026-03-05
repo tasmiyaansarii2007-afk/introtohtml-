@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <header>
+    <h1>Simple Form</h1>
+    </header>
+<form action="submit" method="post">
+
+<!----for username-->
+<label for="Username">Username</label>
+<input type="text" id="Username" name="Username" required placeholder="enter the username">
+<br>
+<!----for Password-->
+<label for="Password">Password</label>
+<input type="password" id="password" name="password" required placeholder="enter the Password">
+<br>
+
+<!-----for the phone number-->
+<label for="phone number">phone number</label>
+<input type="tel" pattern="[0-9]{10}" id="PhoneNumber" name="PhoneNumber"required placeholder="enter your Number">
+<br>
+
+<!----for the email address-->
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" required placeholder="enter your email">
+<br>
+
+<!----for Date of Birth-->
+<label for="DOB" >DOB</label>
+<input type="date" id="dob" name="dob" required>
+<br>
+
+<!---- for submit Button-->
+<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+ body{
+                    background-image: url("background.jpg");
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+ 
+ h1{
+                  background-color: aquamarine
+                    color:blueviolet;
+                }
+                p{
+                    background-color: burlywood;
+                    color: aquamarine  
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-style: italic;
+                    text-decoration: underline;
+                    text-align: center;
+
+                    border-style: outset;
+                    border-width: 6px;
+                    border-color: black;
+                    border-radius: 15px; 
+                }
+                #p1{
+                    background-color: burlywood;
+                }
+                #p2{
+                    background-color: burlywood;
+                }
+                .odd{
+                    background-color: burlywood;
+                }
+                .even{
+                    background-color: burlywood;
+                }   
+                #p3{
+                    border:8px
+                    width:250;
+                    height:250;
+                    font-size: 20px;
+                    background-color: burlywood;
+                    color: aquamarine;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+
+                    margin: 20px;
+                }

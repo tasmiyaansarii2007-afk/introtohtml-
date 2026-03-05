@@ -1,0 +1,31 @@
+li:nth-child(even) {
+    color: #1266ed;
+    font-size: 20px;
+}
+li:nth-child(odd) {
+    color: rgb(240, 112, 112);
+    font-size: 25px;
+}
+
+#box{
+    border: 3px solid;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(252, 169, 169);
+    padding-top: 60px;
+
+    transform: translateX(20px);
+    transform: translateY(30px);
+    transform: translate(40px, 40px);
+
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+
+    transform: skewX(40deg);
+    transform: skewY(40deg);
+    transform: scaleX(3);
+    transform: scaleY(1);
+    transform: scale(2,1);
+}
